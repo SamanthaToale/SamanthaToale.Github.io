@@ -1,0 +1,305 @@
+@charset "utf-8";
+@import url("Amarillo/stylesheet.css");
+@import url("AdeliciaRegular/stylesheet.css");
+@import url("Wildy_Sans/stylesheet.css");
+
+
+
+body {
+    background-color: #C6DABF;
+    background-size: cover;
+}body p {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+.container{
+    display: flex;
+    padding-top: 15px;
+}
+.section {
+    background-color: #114B5F;
+    color: #FFFFFF;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+/*
+    width: 20%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    text-align: left;
+    margin-top: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+*/
+}
+.footer {
+    color: #FFFFFF;
+    font-size: small;
+    position: static;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+}
+.h1 {
+    font-family: Amarillo;
+    font-style: normal;
+    text-align: center;
+    padding-left: 3%;
+    font-size: xx-large;
+    color: #114b5f;
+}
+.nav {
+    color: #114B5F;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding-top: 1.5%;
+    padding-right: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 1.5%;
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    font-family: AdeliciaRegular;
+    font-weight: bold;
+    text-align: center;
+}
+.section2 {
+    color: #FFFFFF;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    background-color: #114B5F;
+    margin-top: -280px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 450px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    font-size: large;
+    clear: right;
+}
+.aside {
+}
+.profile_picture {
+    width: 20%;
+    height: 20%;
+    border-radius: 60%;
+    margin-top: -180px;
+    margin-right: 3%;
+    margin-bottom: 1%;
+    margin-left: 3%;
+    border: thick double #114B5F;
+    padding-bottom: 0px;
+}
+.section_heading {
+    width: 100%;
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+    border-radius: 0px;
+    background-image: url(Adobe/sharissa-johnson-Yis49IPlFws-unsplash-copy.jpg);
+    background-size: 100% auto;
+    height: auto;
+    margin-bottom: 0%;
+
+}
+.h2 {
+    font-family: AdeliciaRegular;
+    clear: both;
+}
+@font-face {
+	font-family: 'Amarillo';
+	src: url('Amarillo.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'AdeliciaRegular';
+	src: url('AdeliciaRegular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Wildy Sans';
+	src: url('Wildy-Sans.ttf') format('truetype');
+}
+
+.header_p {
+    font-size: large;
+    padding-left: 8%;
+    visibility: hidden;
+}
+.section3 {
+    background-color: #FFFFFF;
+    margin-top: -150px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 28%;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    color: #114B5F;
+}
+.navlist {
+    list-style-type: none;
+    text-align: center;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-top: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    border-radius: 20px;
+}
+.navlistitem {
+    float: left;
+    padding-top: 0px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    text-align: center;
+    color: #114B5F;
+    text-decoration: none;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+.navitem {
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding-left: 0px;
+}
+.Grad_photo {
+    margin-left: 30px;
+    margin-top: -250px;
+    border: thick double #114B5F;
+    border-radius: 100px;
+    margin-bottom: 30px;
+
+}
+.container2 {
+}
+.section1 {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    color: #114B5F;
+    text-align: center;
+    font-family: Amarillo;
+    text-decoration: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-size: small;
+    clear: both;
+}
+.hyperlink {
+    text-decoration: none;
+    color: #114B5F;
+}
+.section4 {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: #114B5F;
+    color: #FFFFFF;
+    border-radius: 20px;
+}
+.section5 {
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    background-color: #09817C;
+}
+.container1 {
+}
+.image1 {
+    text-align: left;
+    float: none;
+    margin-left: 12%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.description1 {
+    color: #FFFFFF;
+    float: none;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+
+
+}
+.h2_2 {
+    font-family: AdeliciaRegular;
+    font-size: xx-large;
+    text-align: center;
+}
+.image2 {
+    float: left;
+    margin-top: -75px;
+    border-width: medium;
+    border-style: double;
+
+
+
+
+}
+.image3 {
+    border-width: medium;
+    border-style: double;
+    margin-right: 6%;
+    margin-left: 6%;
+}
+.image4 {
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    margin-right: 13%;
+    margin-bottom: 10px;
+    margin-left: 13%;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    text-align: left;
+}
+.description2 {
+    float: none;
+    clear: none;
+    margin-left: 400px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+.AboutMe {
+}
+.Magazine {
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+.p {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
